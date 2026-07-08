@@ -1,7 +1,13 @@
-# Retail Demand Forecasting
+# Retail Demand Forecasting — Adidas US Sales
 
 Demand forecasting project using real retail sales data (Adidas US, 2020–2021). 
-Comparing 3 statistical forecasting methods and evaluating performance with supply chain KPIs: MAPE, SMAPE, BIAS, MASE, and Forecast Accuracy.
+Comparing statistical forecasting methods and evaluating performance with supply chain KPIs: sMAPE, BIAS, MASE, and Forecast Accuracy.
+
+---
+
+## Quick Access
+-  **[Ver Dashboard Interactivo en Vivo (Reporte Rápido)](https://norelytics.github.io/retail-demand-forecasting-adidas/demand_forecasting_dashboard.html)**
+-  **[Explorar Código y Archivos del Repositorio (Python & Excel)](https://github.com/Norelytics/retail-demand-forecasting-adidas)**
 
 ---
 
@@ -20,9 +26,6 @@ Comparing 3 statistical forecasting methods and evaluating performance with supp
 | **Python** | Men's Street Footwear | Highest units sold | 593,320 Units |
 | **Excel + Power Query** | Women's Apparel | Second highest revenue | $179M Revenue |
 
- [Dashboard](https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/blob/main/demand_forecasting_dashboard.html)
-
-https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/raw/main/demand_forecasting_dashboard.html
 ---
 
 ## Results Summary
@@ -34,7 +37,7 @@ https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forec
 | Rolling MA(3m) | 4949 | 12.8% | 12.1% | 5583 | +3.6% | 1.05 | 87.2% |
 | Exp. Smoothing | 5073 | 11.8% | 12.6% | 5858 | -8.4% | 1.07 | 88.2% |
 
-*Best method: Naive (MAPE 10.0%, MASE 0.83)*
+*Best method: Naive (sMAPE 9.7%, MASE 0.83)*
 
 ### Excel Model (Women's Apparel)
 | Method | MAE | MAPE | SMAPE | RMSE | BIAS | Accuracy |
@@ -43,7 +46,7 @@ https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forec
 | Rolling MA(3m) | 1788.3 | 6.4% | 6.0% | 2387.6 | +4.2% | 93.6% |
 | Exp. Smoothing | 2629.1 | 8.4% | 9.0% | 3320.0 | -8.2% | 91.6% |
 
-*Best method: Rolling MA(3m) (MAPE 6.4%, Accuracy 93.6%)*
+*Best method: Rolling MA(3m) (sMAPE 6.0%, Accuracy 93.6%)*
 
 ---
 
@@ -59,7 +62,7 @@ https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forec
 .
 ├── adidas_retail_demand_forecasting.ipynb
 ├── Adidas_Demand_Forecasting.xlsx
-├──  [Dashboard Interactivo](https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/blob/main/demand_forecasting_dashboard.html)
+├── demand_forecasting_dashboard.html
 └── screenshots/
     ├── 01_power_query_transformation.png
     ├── 02_excel_forecast_womens_apparel.png
