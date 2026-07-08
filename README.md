@@ -22,6 +22,7 @@ Comparing 3 statistical forecasting methods and evaluating performance with supp
 
  [Dashboard](https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/blob/main/demand_forecasting_dashboard.html)
 
+https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/raw/main/demand_forecasting_dashboard.html
 ---
 
 ## Results Summary
