@@ -88,3 +88,12 @@ MASE below 1 means the model outperforms the naive benchmark.
 - Rows: 9,562 transactions
 
 ## Project Structure
+retail-demand-forecasting-adidas/
+├── adidas_retail_demand_forecasting.ipynb   / Python analysis (Google Colab)
+├── Adidas_Demand_Forecasting.xlsx           / Excel + Power Query analysis
+├── demand_forecasting_dashboard.html        / Interactive dashboard
+├── screenshots/
+│   ├── 01_power_query_transformation.png    / Power Query data cleaning
+│   ├── 02_excel_forecast_womens_apparel.png / Excel forecast chart
+│   └── 03 colab forecast_men_street_footwear.png / Python colab forecast chart
+└── README.md
