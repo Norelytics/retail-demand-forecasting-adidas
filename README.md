@@ -20,7 +20,7 @@ Comparing 3 statistical forecasting methods and evaluating performance with supp
 | **Python** | Men's Street Footwear | Highest units sold | 593,320 Units |
 | **Excel + Power Query** | Women's Apparel | Second highest revenue | $179M Revenue |
 
-👉 [Dashboard](https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/blob/main/demand_forecasting_dashboard.html)
+ [Dashboard](https://htmlpreview.github.io/?https://github.com/Norelytics/retail-demand-forecasting-adidas/blob/main/demand_forecasting_dashboard.html)
 
 ---
 
