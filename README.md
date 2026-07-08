@@ -56,7 +56,7 @@ Comparing 3 statistical forecasting methods and evaluating performance with supp
 .
 ├── adidas_retail_demand_forecasting.ipynb
 ├── Adidas_Demand_Forecasting.xlsx
-├── demand_forecasting_dashboard.html
+├──  [Ver Dashboard Interactivo en Vivo](https://htmlpreview.github.io/?https://github.com/TU-USUARIO/TU-REPOSITORIO/blob/main/demand_forecasting_dashboard.html)
 └── screenshots/
     ├── 01_power_query_transformation.png
     ├── 02_excel_forecast_womens_apparel.png
